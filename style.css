@@ -55,6 +55,9 @@ body, html {
     height: 40px;
     background-color: hsl(0, 0%, 20%);
     font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
 }
 
 .intro{
@@ -85,4 +88,8 @@ body, html {
 }
 .attribution{
     display: block;
+}
+
+.links:hover{
+    background-color: hsl(75, 94%, 57%);
 }
