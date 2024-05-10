@@ -27,7 +27,7 @@ body, html {
 
 .profile{
     display: flex;
-    border-radius: 90px;
+    border-radius: 60px;
     height: 90px;
     padding: 25px;
 }
