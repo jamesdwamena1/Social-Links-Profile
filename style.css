@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+
+.box{
+    height: 550px;
+    width: 300px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.profile{
+    display: flex;
+    border-radius: 90px;
+    height: 90px;
+    padding: 25px;
+}
+
+.socialmedia{
+    display: flex;
+    
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 15px;
+    /*padding: 70px 0 20px 0 ;*/
+}
+.links{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px hsl(0, 0%, 12%) solid;
+    width: 250px;
+    border-radius: 8px;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    padding: 5px;
+    font-size: 80%;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.aboutme{
+    padding: 20px;
+    font-size: 90%;
+}
+.attribution{
+    display: block;
+}
